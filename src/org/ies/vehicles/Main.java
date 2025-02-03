@@ -10,11 +10,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner (System.in);
-        VehicleReader vehicleReader = new VehicleReader(scanner);
-        GarageReader garageReader = new GarageReader(scanner,  vehicleReader);
+        var scanner = new Scanner (System.in);
+        var vehicleReader = new VehicleReader(scanner);
+        var garageReader = new GarageReader(scanner, vehicleReader);
 
-        Garage garage = GarageReader.read();
+        Garage garage = garageReader.read();
 
         System.out.println(garage);
     }

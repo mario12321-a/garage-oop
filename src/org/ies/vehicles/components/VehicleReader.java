@@ -1,7 +1,6 @@
 package org.ies.vehicles.components;
 import org.ies.vehicles.model.Vehicle;
 import org.ies.vehicles.model.VehicleType;
-
 import java.util.Scanner;
 
 public class VehicleReader {

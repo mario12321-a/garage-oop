@@ -59,4 +59,5 @@ public class Garage {
                 ", vehicles=" + Arrays.toString(vehicles) +
                 '}';
     }
+
 }
